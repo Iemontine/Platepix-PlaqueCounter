@@ -16,7 +16,6 @@ Developed at Solano Community College in California for a Civic Engagement proje
 ## Project Objective
 * The objective of our project is to recognize an ongoing problem within our community and create a solution for it. We believe that our solution, of an automated plaque counting program, can be easily accessed by a variety of people and close the gap between innovation and practicality, leading officials to recognize our project’s value and consider a widespread adoption of its use in our community, along with the increased implementation of technology in the field of biology.
 
-![image](https://github.com/Iemontine/plaque-counter/assets/95956143/3809c6c8-d662-4728-8ee7-8a067da54c04)
 ![image](https://github.com/Iemontine/plaque-counter/assets/95956143/f8cae9f4-57b0-4d50-8681-b830910fdc1f)
 ![image](https://github.com/Iemontine/plaque-counter/assets/95956143/14252421-7294-4d69-bacb-2f737bdbee3f)
 ![image](https://github.com/Iemontine/plaque-counter/assets/95956143/c86d431f-c427-4102-948c-16352f359432)
