@@ -54,18 +54,6 @@ props = dict(boxstyle='round', facecolor='wheat', alpha=0.5)
 textbox1 = plt.figtext(0.05, 0.175, f"Plaque/Bacteria Count\n---",  fontsize=13, c='black', bbox=props)
 textbox2 = plt.figtext(0.05, 0.09, f"Average area: \n---", fontsize=13, c='black', bbox=props)
 
-sliders_on_changed(-1)
-
-area_slider.on_changed(sliders_on_changed)
-perimeter_slider.on_changed(sliders_on_changed)
-sides_slider.on_changed(sliders_on_changed)
-mask_slider.on_changed(sliders_on_changed)
-y_slider.on_changed(sliders_on_changed)
-x_slider.on_changed(sliders_on_changed)
-
-axes.axis('off')
-plt.show()
-
 # function that gets called every time one of the sliders gets touched
 def sliders_on_changed(val):
     global image, original, textbox
@@ -117,3 +105,14 @@ def sliders_on_changed(val):
    
     final.set_data(originalcopy)
 
+sliders_on_changed(-1)
+
+area_slider.on_changed(sliders_on_changed)
+perimeter_slider.on_changed(sliders_on_changed)
+sides_slider.on_changed(sliders_on_changed)
+mask_slider.on_changed(sliders_on_changed)
+y_slider.on_changed(sliders_on_changed)
+x_slider.on_changed(sliders_on_changed)
+
+axes.axis('off')
+plt.show()
