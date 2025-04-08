@@ -1,3 +1,11 @@
+# This program was developed by Darroll Saddi at Solano Community College
+# TODO:
+# 1) implementing better pre-processing the image so that all plaques/bacterial formations are seen with even a raw image,
+# 2) handling the issue of overlapping plaques/bacterial formations, 
+# 3) handling the issue of having to crop the image to be square, 
+# 4) and finally handling the issue of having to restart the program per-image.
+# Edited: May 22, 2023
+
 import cv2
 from numpy import pi, sin
 import numpy as np
